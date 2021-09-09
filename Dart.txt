@@ -1,0 +1,60 @@
+void main() 
+{
+  var studentName = "Abdul Rehman Siddiqui";
+  print("Candidate name = $studentName");
+  
+  String class1 = "10th";
+  print("Class = $class1");
+  
+  String registration = "20705";
+  print("Reg# = $registration");
+  
+  String school = "Wow Education Valley";
+  print("School Name = $school");
+  
+  var subject1 = "English , Math , Urdu , Physics , Chemistry";
+  print("Subject Name = $subject1");
+
+  int num1  = 41;
+  print("Marks Obtained in English = $num1");
+  
+  int num2 = 41;
+  print("Marks Obtained in Math = $num2");
+  
+  int num3  = 32;
+  print("Marks Obtained in Urdu = $num3");
+  
+  int num4 = 41;
+  print("Marks Obtained in Physics = $num4");
+  
+  int num5 = 39;
+  print("Marks Obtained in Chemistry = $num5");
+  
+  int total = num1 + num2 + num3 + num4 + num5;
+  print("Total Marks Obtained = $total");
+  
+  var totalmark = 500;
+  var per = (total*100)/totalmark;
+  print("Percentage = $per");
+  
+  if (per>80) {
+    print("The grade is A+");
+  }
+  else if (per<80 && per>70) {
+    print("The grade is A");
+  }
+  
+ else if (per<70 && per>60) {
+    print("The grade is B");
+  }
+  
+  else if (per<60 && per>50) {
+    print("The grade is C");
+  }
+  else if (per<50 && per>40) {
+    print("The grade is D");
+  }
+  else{
+    print("FAIL");
+  }
+}
